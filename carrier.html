@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schedule</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .label {
+    font-weight: bold;
+  }
+  .textbox {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff4d4d;
+    color: white;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #e60000;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:   #8c85c3;
+    color: white;
+    padding: 10px 30px;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+footer {
+    background-color:  #8c85c3;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo" style="color: white;">Shipperbid Pvt. lTD.</div>
+        <nav>
+            <ul>
+                <li style="font-size: 20px;"><a href="form.html">shipping</a></li>
+                <li style="font-size: 20px;"><a href="carrier.html">Schedule</a></li>
+                <li style="font-size: 20px;"><a href="index.html">login</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+<form action="thankyou.html">
+<div class="container" style="text-align: center; font-size: 25px;">Time Schedule<br><br>
+    
+  <div class="row">
+    <div class="label">Carrier 1</div>
+    <div class="timing">12:00 to 15:00</div>
+    <input type="text" class="textbox" placeholder="Price">
+    <button class="button" href="thankyou.html">Book</button>
+  </div>
+  <div class="row">
+    <div class="label">Carrier 2</div>
+    <div class="timing">14:00 to 17:00</div>
+    <input type="text" class="textbox" placeholder="Price">
+    <button class="button">Book</button>
+  </div>
+  <div class="row">
+    <div class="label">Carrier 3</div>
+    <div class="timing">18:00 to 21:00</div>
+    <input type="text" class="textbox" placeholder="Price">
+    <button class="button">Book</button>
+  </div>
+</div>
+</form>
+<footer>
+    <div class="footer-content">
+      <p style="color: white;">&copy; 2024 Shipperbid. All rights reserved.</p>
+      <div class="social-media">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
